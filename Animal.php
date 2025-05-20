@@ -33,59 +33,7 @@ class sitio
 
     //metodos
 
-    /*   function TipoAnimal($especie, $patas, $pele, $sons, $movimento) {
-
-        if ($this->especie == "Galinha") {
-            
-            $this->patas == 2;
-            $this->pele == "Branca";
-            $this->sons == "Có có có";
-            $this->movimento == "Caminhar";
-            
-        }
-        if ($this->especie == "Cachorro") {
-
-            $this->patas == 4;
-            $this->pele == "Marrom";
-            $this->sons == "AU AU";
-            $this->movimento == "Caminhar, alguns podem Nadar";
-
-        }
-        if ($this->especie == "Porco") {
-        
-            $this->patas == 4;
-            $this->pele == "Rosa";
-            $this->sons == "Oinc Oinc";
-            $this->movimento == "Caminhar";
-            
-        }
-        if ($this->especie == "Vaca") {
-
-            $this->patas == 4;
-            $this->pele == "Branco/Preto";
-            $this->sons == "Muuu";
-            $this->movimento == "Caminhar";
-            
-            
-        }
-        if ($this->especie == "Peru") {
-
-            $this->patas == 2;
-            $this->pele == "Marrom/Preto";
-            $this->sons == "Glugluglu";
-            $this->movimento == "Caminhar e Voar";
-            
-        }
-
-        if ($this->especie == "Pato") {
-
-            $this->patas == 2;
-            $this->pele == "Branco";
-            $this->sons == "Quack Quack";
-            $this->movimento = "Caminhar, Voar e Nadar"; 
-            
-        }
-    }*/
+   
     public function __construct($especie, $patas, $pele, $sons, $movimento)
     {
 
@@ -109,9 +57,7 @@ class sitio
       | A $this->especie faz: $this->sons.
       | O movimento do $this->especie é: $this->movimento.
       |===========================================================================";
-        /*  return "A cor do $this->especie é: $this->pele";
-        return "A $this->especie faz: $this->sons";
-        return "O movimento do $this->especie é: $this->movimento"; */
+       
     }
 }
 
